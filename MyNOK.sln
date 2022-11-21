@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyNOK", "MyNOK\MyNOK.csproj", "{EFE72777-84D6-4BFA-8335-90A809B65632}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DA9F3F48-2DBA-47BD-9003-461025D2469A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyNOKTest", "MyNOKTest\MyNOKTest.csproj", "{07D29BF9-B1F4-4D37-8991-EF8C69C1A0B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFE72777-84D6-4BFA-8335-90A809B65632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFE72777-84D6-4BFA-8335-90A809B65632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFE72777-84D6-4BFA-8335-90A809B65632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFE72777-84D6-4BFA-8335-90A809B65632}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07D29BF9-B1F4-4D37-8991-EF8C69C1A0B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07D29BF9-B1F4-4D37-8991-EF8C69C1A0B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07D29BF9-B1F4-4D37-8991-EF8C69C1A0B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07D29BF9-B1F4-4D37-8991-EF8C69C1A0B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{07D29BF9-B1F4-4D37-8991-EF8C69C1A0B7} = {DA9F3F48-2DBA-47BD-9003-461025D2469A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {722A6D44-DA72-431E-9866-5D86A013E60C}
+	EndGlobalSection
+EndGlobal
